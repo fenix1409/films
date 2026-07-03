@@ -1,8 +1,32 @@
-# React + Vite
+# Films
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie discovery app built with React and Vite, powered by the TMDB API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse movies by genre
+- View upcoming releases
+- Pagination for smooth navigation
+- Search functionality
+
+## Tech Stack
+
+React, JavaScript, Redux Toolkit, React Query, Tailwind CSS, Vite, TMDB API
+
+## Getting Started
+
+1. Clone the repo
+   git clone https://github.com/fenix1409/films
+
+2. Install dependencies
+   npm install
+
+3. Create .env file
+   VITE_TMDB_API_KEY=your_api_key_here
+
+4. Run the app
+   npm run dev
+
+## Live Demo
+
+https://films-kappa-one.vercel.app
